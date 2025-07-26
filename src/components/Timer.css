@@ -1,0 +1,67 @@
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Time Display */
+.time-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+/* Button Container */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Buttons */
+.controls button {
+  font-size: 1rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: black;
+}
+
+/* Lap List */
+.laps {
+  margin-top: 2rem;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.laps ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.laps li {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  text-align: left;
+}

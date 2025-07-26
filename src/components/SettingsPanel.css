@@ -1,0 +1,65 @@
+.settings-panel {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 20px 0;
+  background-color: #fafafa;
+}
+
+.player-settings {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.player-section {
+  width: 40%;
+  min-width: 220px;
+}
+
+.avatar-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.avatar-option {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid transparent;
+  object-fit: cover;
+}
+
+.avatar-option.selected {
+  border-color: #00aaff;
+}
+
+.theme-toggle-btn {
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.theme-selector {
+  margin-top: 20px;
+}
+
+.theme-selector label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.theme-selector select {
+  padding: 6px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
